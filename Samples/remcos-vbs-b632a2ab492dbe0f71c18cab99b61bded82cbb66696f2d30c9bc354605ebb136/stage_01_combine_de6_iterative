@@ -1,0 +1,10 @@
+[
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "De6 = |De6 \\+ " }, "", true, true, true, true] },
+  { "op": "Regular expression",
+    "args": ["User defined", "^\".+\"", true, true, false, false, false, false, "List matches"] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "\"\\s+\"|\"" }, "", true, true, true, true] },
+  { "op": "Generic Code Beautify",
+    "args": [] }
+]

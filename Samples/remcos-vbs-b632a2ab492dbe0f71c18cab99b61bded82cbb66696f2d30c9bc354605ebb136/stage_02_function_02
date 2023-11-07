@@ -1,0 +1,12 @@
+[
+  { "op": "Subsection",
+    "args": ["Skrmmevaab02\\s'(.+)'", true, true, false] },
+  { "op": "From Hex",
+    "args": ["Auto"] },
+  { "op": "XOR",
+    "args": [{ "option": "Decimal", "string": "125" }, "Standard", false] },
+  { "op": "Merge",
+    "args": [true] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "Skrmmevaab02 '(.+)'" }, "'$1'", true, false, true, false] }
+]

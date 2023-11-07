@@ -1,0 +1,14 @@
+[
+  { "op": "Subsection",
+    "args": ["Minimif\\s+'(.+)'", true, true, false] },
+  { "op": "Fork",
+    "args": ["\\n", "\\n", false] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": ".......(.)" }, "$1", true, false, true, false] },
+  { "op": "Merge",
+    "args": [true] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "Minimif\\s+'(.+)'" }, "'$1'", true, false, true, false] },
+  { "op": "Generic Code Beautify",
+    "args": [] }
+]

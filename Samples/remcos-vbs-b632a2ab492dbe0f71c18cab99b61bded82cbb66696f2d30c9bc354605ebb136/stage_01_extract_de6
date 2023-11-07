@@ -1,0 +1,8 @@
+[
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "^'.*\\s+" }, "", true, false, true, false] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "^((?!(De6)).).*\\s" }, "", true, true, true, false] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "^\\n" }, "", true, false, true, false] }
+]

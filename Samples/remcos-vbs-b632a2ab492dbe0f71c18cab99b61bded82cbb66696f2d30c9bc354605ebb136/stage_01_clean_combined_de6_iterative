@@ -1,0 +1,10 @@
+[
+  { "op": "Regular expression",
+    "args": ["User defined", "'[^']+'", true, true, false, false, false, false, "List matches"] },
+  { "op": "Fork",
+    "args": ["\\n", "\\n", false] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "'" }, "", true, false, true, false] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": ".......(.)" }, "$1", true, false, true, false] }
+]
