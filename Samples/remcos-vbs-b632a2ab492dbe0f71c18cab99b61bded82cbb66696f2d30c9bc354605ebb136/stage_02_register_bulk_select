@@ -1,0 +1,8 @@
+[
+  { "op": "Register",
+    "args": ["\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'\\n\\$Unlabor\\d{1} = '(.+)'", false, false, false] },
+  { "op": "Register",
+    "args": ["\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n\\$Yashm\\d{1} = '(.+)'\\n", false, false, false] },
+  { "op": "Register",
+    "args": ["\\$Rehydr = '(.+)'\\n", true, false, false] }
+]
